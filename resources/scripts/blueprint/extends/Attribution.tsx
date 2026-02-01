@@ -12,16 +12,15 @@ export default () => {
           <span className={"mx-2"}>
             •
           </span>
-
+          &nbsp;&copy; 2024 - {new Date().getFullYear()}
           <a
             rel={'noopener nofollow noreferrer'}
             href={'https://multivirtus.com'}
             target={'_blank'}
             className={`no-underline text-neutral-500 hover:text-neutral-300`}
           >
-            Multivirtus
+            Multivirtus Cloud&reg;
           </a>
-          &nbsp;&copy; 2024 - {new Date().getFullYear()}
         </>
       )}
     </>

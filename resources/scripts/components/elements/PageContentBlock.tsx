@@ -35,11 +35,11 @@ const PageContentBlock: React.FC<PageContentBlockProps> = ({ title, showFlashKey
                         &nbsp;&copy; 2024 - {new Date().getFullYear()}
                         <a
                             rel={'noopener nofollow noreferrer'}
-                            href={'https://pterodactyl.io'}
+                            href={'https://multivirtus.com'}
                             target={'_blank'}
                             css={tw`no-underline text-neutral-500 hover:text-neutral-300`}
                         >
-                            Multivirtus Cloud&reg;
+                             Multivirtus Cloud&reg;
                         </a>
                     </p>
                 </ContentContainer>
