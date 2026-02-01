@@ -51,11 +51,13 @@ export default () => {
     }
 
     return (
-        <ServerContentBlock title={'Users'}>
+        <ServerContentBlock title={'Usuários'}>
             <FlashMessageRender byKey={'users'} css={tw`mb-4`} />
             <BeforeContent />
             {!subusers.length ? (
-                <p css={tw`text-center text-sm text-neutral-300`}>It looks like you don&apos;t have any subusers.</p>
+                <p css={tw`text-center text-sm text-neutral-300`}>
+                    Parece que você não possui nenhum subusuário cadastrado.
+                </p>
             ) : (
                 subusers.map((subuser) => <UserRow key={subuser.uuid} subuser={subuser} />)
             )}

@@ -15,13 +15,13 @@ export default () => {
 
           <a
             rel={'noopener nofollow noreferrer'}
-            href={'https://blueprint.zip'}
+            href={'https://multivirtus.com'}
             target={'_blank'}
             className={`no-underline text-neutral-500 hover:text-neutral-300`}
           >
-            Blueprint
+            Multivirtus
           </a>
-          &nbsp;&copy; 2023 - {new Date().getFullYear()}
+          &nbsp;&copy; 2024 - {new Date().getFullYear()}
         </>
       )}
     </>

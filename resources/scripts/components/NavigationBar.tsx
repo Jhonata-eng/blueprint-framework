@@ -66,28 +66,28 @@ export default () => {
                 </div>
                 <RightNavigation className={'flex h-full items-center justify-center'}>
                     <SearchContainer />
-                    <Tooltip placement={'bottom'} content={'Dashboard'}>
-                        <NavLink to={'/'} exact id={'NavigationDashboard'}>
+                    <Tooltip placement={'bottom'} content={'Painel de controle'}>
+                        <NavLink to={'/'} exact>
                             <FontAwesomeIcon icon={faLayerGroup} />
                         </NavLink>
                     </Tooltip>
                     {rootAdmin && (
-                        <Tooltip placement={'bottom'} content={'Admin'}>
-                            <a href={'/admin'} rel={'noreferrer'} id={'NavigationAdmin'}>
+                        <Tooltip placement={'bottom'} content={'Administrador'}>
+                            <a href={'/admin'} rel={'noreferrer'}>
                                 <FontAwesomeIcon icon={faCogs} />
                             </a>
                         </Tooltip>
                     )}
                     <AdditionalItems />
-                    <Tooltip placement={'bottom'} content={'Account Settings'}>
-                        <NavLink to={'/account'} id={'NavigationAccount'}>
+                    <Tooltip placement={'bottom'} content={'Configurações da conta'}>
+                        <NavLink to={'/account'}>
                             <span className={'flex items-center w-5 h-5'}>
                                 <Avatar.User />
                             </span>
                         </NavLink>
                     </Tooltip>
-                    <Tooltip placement={'bottom'} content={'Sign Out'}>
-                        <button onClick={onTriggerLogout} id={'NavigationLogout'}>
+                    <Tooltip placement={'bottom'} content={'Sair'}>
+                        <button onClick={onTriggerLogout}>
                             <FontAwesomeIcon icon={faSignOutAlt} />
                         </button>
                     </Tooltip>
