@@ -32,7 +32,7 @@ const PageContentBlock: React.FC<PageContentBlockProps> = ({ title, showFlashKey
                 <AfterSection/>
                 <ContentContainer css={tw`mb-4`}>
                     <p css={tw`text-center text-neutral-500 text-xs`}>
-                        &nbsp;&copy; 2024 - {new Date().getFullYear()}
+                        &copy; 2024 - {new Date().getFullYear()}&nbsp;
                         <a
                             rel={'noopener nofollow noreferrer'}
                             href={'https://multivirtus.com'}

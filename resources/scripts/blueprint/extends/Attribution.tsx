@@ -19,7 +19,7 @@ export default () => {
             target={'_blank'}
             className={`no-underline text-neutral-500 hover:text-neutral-300`}
           >
-            Multivirtus Cloud&reg;
+             Multivirtus Cloud&reg;
           </a>
         </>
       )}
